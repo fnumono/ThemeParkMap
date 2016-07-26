@@ -1,0 +1,207 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AttractionAnnotationView"
+provides-nominal:
+- "C9Park_View24AttractionAnnotationView"
+provides-member:
+- ["C9Park_View24AttractionAnnotationView", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- "AttractionAnnotationView"
+- !private "AttractionAnnotation"
+- "String"
+- "MKAnnotation"
+- "CGRect"
+- !private "UIImage"
+- "NSCoder"
+- "MKAnnotationView"
+depends-member:
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "annotation"]
+- !private ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "type"]
+- ["PSs9AnyObject", ""]
+- !private ["C9Park_View20AttractionAnnotation", "type"]
+- !private ["C9Park_View24AttractionAnnotationView", "AttractionAnnotation"]
+- ["C9Park_View24AttractionAnnotationView", "CGRect"]
+- ["C9Park_View24AttractionAnnotationView", "MKAnnotation"]
+- ["C9Park_View24AttractionAnnotationView", "NSCoder"]
+- ["C9Park_View24AttractionAnnotationView", "String"]
+- !private ["C9Park_View24AttractionAnnotationView", "UIImage"]
+- !private ["C9Park_View24AttractionAnnotationView", "annotation"]
+- ["C9Park_View24AttractionAnnotationView", "deinit"]
+- !private ["C9Park_View24AttractionAnnotationView", "image"]
+- ["C9Park_View24AttractionAnnotationView", "init"]
+- ["O9Park_View14AttractionType", "AttractionFirstAid"]
+- ["O9Park_View14AttractionType", "AttractionFood"]
+- ["O9Park_View14AttractionType", "AttractionRide"]
+- !private ["PSs11CVarArgType", "UIImage"]
+- !private ["PSs11CVarArgType", "annotation"]
+- !private ["PSs11CVarArgType", "image"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "type"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "UIImage"]
+- !private ["PSs23CustomStringConvertible", "annotation"]
+- !private ["PSs23CustomStringConvertible", "image"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "type"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "AttractionFirstAid"]
+- ["PSs9Equatable", "AttractionFood"]
+- ["PSs9Equatable", "AttractionRide"]
+- !private ["PSs9Equatable", "UIImage"]
+- !private ["PSs9Equatable", "annotation"]
+- !private ["PSs9Equatable", "image"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "type"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "AttractionFirstAid"]
+- ["PSs8Hashable", "AttractionFood"]
+- ["PSs8Hashable", "AttractionRide"]
+- !private ["PSs8Hashable", "UIImage"]
+- !private ["PSs8Hashable", "annotation"]
+- !private ["PSs8Hashable", "image"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "type"]
+- ["PSs8Hashable", ""]
+- !private ["PSo12MKAnnotation", "type"]
+- !private ["CSo16MKAnnotationView", "AttractionAnnotation"]
+- ["CSo16MKAnnotationView", "CGRect"]
+- ["CSo16MKAnnotationView", "MKAnnotation"]
+- ["CSo16MKAnnotationView", "NSCoder"]
+- ["CSo16MKAnnotationView", "String"]
+- !private ["CSo16MKAnnotationView", "UIImage"]
+- !private ["CSo16MKAnnotationView", "annotation"]
+- !private ["CSo16MKAnnotationView", "image"]
+- ["CSo16MKAnnotationView", "init"]
+- ["CSo16MKAnnotationView", ""]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "annotation"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo8NSObject", "AttractionAnnotation"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "MKAnnotation"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "annotation"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "type"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "annotation"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "type"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Sq", "deinit"]
+- ["PSs16RawRepresentable", "AttractionFirstAid"]
+- ["PSs16RawRepresentable", "AttractionFood"]
+- ["PSs16RawRepresentable", "AttractionRide"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- !private ["PSo29UIAccessibilityIdentification", "annotation"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UIImage"]
+- !private ["PSo12UIAppearance", "annotation"]
+- !private ["PSo12UIAppearance", "image"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "annotation"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- !private ["PSo17UICoordinateSpace", "annotation"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- !private ["PSo13UIDynamicItem", "annotation"]
+- !private ["PSo13UIDynamicItem", "image"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "annotation"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIResponder", "AttractionAnnotation"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "MKAnnotation"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "annotation"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "annotation"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "AttractionAnnotation"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "MKAnnotation"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIImage"]
+- !private ["CSo6UIView", "annotation"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs12_Reflectable", "UIImage"]
+- !private ["PSs12_Reflectable", "annotation"]
+- !private ["PSs12_Reflectable", "image"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "C9Park_View20AttractionAnnotation"
+- "C9Park_View24AttractionAnnotationView"
+- "O9Park_View14AttractionType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo12MKAnnotation"
+- "CSo16MKAnnotationView"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- "PSs16RawRepresentable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "PSs24_ImageLiteralConvertible"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "5e1c93e5cac45dc625108aaf988b3fce"

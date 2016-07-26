@@ -1,0 +1,133 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParkMapOverlay"
+provides-nominal:
+- "C9Park_View14ParkMapOverlay"
+provides-member:
+- ["C9Park_View14ParkMapOverlay", ""]
+provides-dynamic-lookup:
+- "coordinate"
+- "boundingMapRect"
+depends-top-level:
+- "CLLocationCoordinate2D"
+- "Park"
+- "MKOverlay"
+- "ParkMapOverlay"
+- "MKMapRect"
+- !private "StringLiteralType"
+- "NSObject"
+depends-member:
+- ["PSs9AnyObject", "boundingMapRect"]
+- ["PSs9AnyObject", "canReplaceMapContent"]
+- ["PSs9AnyObject", "coordinate"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "intersectsMapRect"]
+- !private ["PSs9AnyObject", "midCoordinate"]
+- !private ["PSs9AnyObject", "overlayBoundingMapRect"]
+- ["PSs9AnyObject", "subtitle"]
+- ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "boundingMapRect"]
+- ["PSs11CVarArgType", "canReplaceMapContent"]
+- ["PSs11CVarArgType", "coordinate"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "intersectsMapRect"]
+- ["PSs11CVarArgType", "subtitle"]
+- ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "boundingMapRect"]
+- ["PSs23CustomStringConvertible", "canReplaceMapContent"]
+- ["PSs23CustomStringConvertible", "coordinate"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "intersectsMapRect"]
+- ["PSs23CustomStringConvertible", "subtitle"]
+- ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "boundingMapRect"]
+- ["PSs9Equatable", "canReplaceMapContent"]
+- ["PSs9Equatable", "coordinate"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "intersectsMapRect"]
+- ["PSs9Equatable", "subtitle"]
+- ["PSs9Equatable", "title"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "boundingMapRect"]
+- ["PSs8Hashable", "canReplaceMapContent"]
+- ["PSs8Hashable", "coordinate"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "intersectsMapRect"]
+- ["PSs8Hashable", "subtitle"]
+- ["PSs8Hashable", "title"]
+- ["PSs8Hashable", ""]
+- ["PSo12MKAnnotation", "boundingMapRect"]
+- ["PSo12MKAnnotation", "canReplaceMapContent"]
+- ["PSo12MKAnnotation", "coordinate"]
+- ["PSo12MKAnnotation", "intersectsMapRect"]
+- ["PSo12MKAnnotation", "subtitle"]
+- ["PSo12MKAnnotation", "title"]
+- ["PSo12MKAnnotation", ""]
+- ["PSo9MKOverlay", "boundingMapRect"]
+- ["PSo9MKOverlay", "canReplaceMapContent"]
+- ["PSo9MKOverlay", "coordinate"]
+- ["PSo9MKOverlay", "intersectsMapRect"]
+- ["PSo9MKOverlay", "subtitle"]
+- ["PSo9MKOverlay", "title"]
+- ["PSo9MKOverlay", ""]
+- ["CSo8NSObject", "CLLocationCoordinate2D"]
+- ["CSo8NSObject", "MKMapRect"]
+- ["CSo8NSObject", "Park"]
+- ["CSo8NSObject", "boundingMapRect"]
+- ["CSo8NSObject", "canReplaceMapContent"]
+- ["CSo8NSObject", "coordinate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "intersectsMapRect"]
+- ["CSo8NSObject", "subtitle"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "boundingMapRect"]
+- ["PSo16NSObjectProtocol", "canReplaceMapContent"]
+- ["PSo16NSObjectProtocol", "coordinate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "intersectsMapRect"]
+- ["PSo16NSObjectProtocol", "subtitle"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C9Park_View4Park", "midCoordinate"]
+- !private ["C9Park_View4Park", "overlayBoundingMapRect"]
+- ["C9Park_View14ParkMapOverlay", "CLLocationCoordinate2D"]
+- ["C9Park_View14ParkMapOverlay", "MKMapRect"]
+- ["C9Park_View14ParkMapOverlay", "Park"]
+- ["C9Park_View14ParkMapOverlay", "boundingMapRect"]
+- ["C9Park_View14ParkMapOverlay", "canReplaceMapContent"]
+- ["C9Park_View14ParkMapOverlay", "coordinate"]
+- ["C9Park_View14ParkMapOverlay", "deinit"]
+- ["C9Park_View14ParkMapOverlay", "init"]
+- ["C9Park_View14ParkMapOverlay", "intersectsMapRect"]
+- ["C9Park_View14ParkMapOverlay", "subtitle"]
+- ["C9Park_View14ParkMapOverlay", "title"]
+- !private ["VSs12StaticString", "deinit"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo12MKAnnotation"
+- "PSo9MKOverlay"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C9Park_View4Park"
+- "C9Park_View14ParkMapOverlay"
+- !private "VSs12StaticString"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "7a3f671706f778150cbfaee5a598142f"

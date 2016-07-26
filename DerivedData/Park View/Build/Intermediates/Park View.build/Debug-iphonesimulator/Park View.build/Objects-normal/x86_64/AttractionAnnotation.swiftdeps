@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AttractionType"
+- "AttractionAnnotation"
+provides-nominal:
+- "O9Park_View14AttractionType"
+- "C9Park_View20AttractionAnnotation"
+provides-member:
+- ["O9Park_View14AttractionType", ""]
+- ["C9Park_View20AttractionAnnotation", ""]
+provides-dynamic-lookup:
+- "coordinate"
+- "subtitle"
+- "title"
+depends-top-level:
+- "CLLocationCoordinate2D"
+- "AttractionAnnotation"
+- "Int"
+- "NSObject"
+- !private "StringLiteralType"
+- "AttractionType"
+- "String"
+- "MKAnnotation"
+- "=="
+- !private "~="
+depends-member:
+- ["PSs9AnyObject", "coordinate"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "subtitle"]
+- ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", "type"]
+- ["PSs9AnyObject", ""]
+- ["C9Park_View20AttractionAnnotation", "AttractionType"]
+- ["C9Park_View20AttractionAnnotation", "CLLocationCoordinate2D"]
+- ["C9Park_View20AttractionAnnotation", "String"]
+- ["C9Park_View20AttractionAnnotation", "coordinate"]
+- ["C9Park_View20AttractionAnnotation", "deinit"]
+- ["C9Park_View20AttractionAnnotation", "init"]
+- ["C9Park_View20AttractionAnnotation", "subtitle"]
+- ["C9Park_View20AttractionAnnotation", "title"]
+- ["C9Park_View20AttractionAnnotation", "type"]
+- ["O9Park_View14AttractionType", "AttractionDefault"]
+- ["O9Park_View14AttractionType", "AttractionFirstAid"]
+- ["O9Park_View14AttractionType", "AttractionFood"]
+- ["O9Park_View14AttractionType", "AttractionRide"]
+- ["O9Park_View14AttractionType", "RawValue"]
+- ["O9Park_View14AttractionType", "deinit"]
+- ["O9Park_View14AttractionType", "hashValue"]
+- ["O9Park_View14AttractionType", "init"]
+- ["O9Park_View14AttractionType", "rawValue"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "hashValue"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- ["PSs11CVarArgType", "coordinate"]
+- !private ["PSs11CVarArgType", "hashValue"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "subtitle"]
+- ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", "type"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "hashValue"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "coordinate"]
+- !private ["PSs23CustomStringConvertible", "hashValue"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "subtitle"]
+- ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", "type"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- ["PSs9Equatable", "RawValue"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "coordinate"]
+- ["PSs9Equatable", "hashValue"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "rawValue"]
+- ["PSs9Equatable", "subtitle"]
+- ["PSs9Equatable", "title"]
+- ["PSs9Equatable", "type"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "hashValue"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "RawValue"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "coordinate"]
+- ["PSs8Hashable", "hashValue"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "rawValue"]
+- ["PSs8Hashable", "subtitle"]
+- ["PSs8Hashable", "title"]
+- ["PSs8Hashable", "type"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "hashValue"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "hashValue"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "hashValue"]
+- ["PSo12MKAnnotation", "coordinate"]
+- ["PSo12MKAnnotation", "subtitle"]
+- ["PSo12MKAnnotation", "title"]
+- !private ["PSo12MKAnnotation", "type"]
+- ["PSo12MKAnnotation", ""]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "hashValue"]
+- !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "AttractionType"]
+- ["CSo8NSObject", "CLLocationCoordinate2D"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "coordinate"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "subtitle"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "type"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "coordinate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "subtitle"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "type"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "hashValue"]
+- !private ["VSs5Range", "deinit"]
+- ["PSs16RawRepresentable", "RawValue"]
+- ["PSs16RawRepresentable", "hashValue"]
+- ["PSs16RawRepresentable", "init"]
+- ["PSs16RawRepresentable", "rawValue"]
+- ["PSs16RawRepresentable", ""]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "hashValue"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "hashValue"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "hashValue"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "hashValue"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "hashValue"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "hashValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "hashValue"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "hashValue"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "hashValue"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "hashValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C9Park_View20AttractionAnnotation"
+- "O9Park_View14AttractionType"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "PSo12MKAnnotation"
+- !private "PSs14MirrorPathType"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo7NSValue"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- "PSs16RawRepresentable"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs12StaticString"
+- !private "PSs10Strideable"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "49a7b7cc11287aa0ac56b669596d6e17"

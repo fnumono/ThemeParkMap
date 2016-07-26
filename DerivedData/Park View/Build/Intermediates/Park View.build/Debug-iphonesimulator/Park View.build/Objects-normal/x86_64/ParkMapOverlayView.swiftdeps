@@ -1,0 +1,176 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParkMapOverlayView"
+provides-nominal:
+- "C9Park_View18ParkMapOverlayView"
+provides-member:
+- ["C9Park_View18ParkMapOverlayView", ""]
+provides-dynamic-lookup:
+- "overlayImage"
+- "drawMapRect"
+depends-top-level:
+- !private "CGContextScaleCTM"
+- "UIImage"
+- !private "CGContextDrawImage"
+- "MKZoomScale"
+- !private "-"
+- "MKOverlayRenderer"
+- "ParkMapOverlayView"
+- "MKOverlay"
+- "MKMapRect"
+- !private "StringLiteralType"
+- !private "CGContextTranslateCTM"
+- "CGContext"
+depends-member:
+- !private ["PSs9AnyObject", "CGContextDrawImage"]
+- !private ["PSs9AnyObject", "CGContextScaleCTM"]
+- !private ["PSs9AnyObject", "CGContextTranslateCTM"]
+- !private ["PSs9AnyObject", "CGImage"]
+- ["PSs9AnyObject", "drawMapRect"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "overlay"]
+- ["PSs9AnyObject", "overlayImage"]
+- !private ["PSs9AnyObject", "rectForMapRect"]
+- ["PSs9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["PSs11CVarArgType", "CGContextDrawImage"]
+- !private ["PSs11CVarArgType", "CGContextScaleCTM"]
+- !private ["PSs11CVarArgType", "CGContextTranslateCTM"]
+- !private ["PSs11CVarArgType", "CGImage"]
+- ["PSs11CVarArgType", "drawMapRect"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "overlay"]
+- ["PSs11CVarArgType", "overlayImage"]
+- !private ["PSs11CVarArgType", "rectForMapRect"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "CGContextDrawImage"]
+- !private ["PSs23CustomStringConvertible", "CGContextScaleCTM"]
+- !private ["PSs23CustomStringConvertible", "CGContextTranslateCTM"]
+- !private ["PSs23CustomStringConvertible", "CGImage"]
+- ["PSs23CustomStringConvertible", "drawMapRect"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "overlay"]
+- ["PSs23CustomStringConvertible", "overlayImage"]
+- !private ["PSs23CustomStringConvertible", "rectForMapRect"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGContextDrawImage"]
+- !private ["PSs9Equatable", "CGContextScaleCTM"]
+- !private ["PSs9Equatable", "CGContextTranslateCTM"]
+- !private ["PSs9Equatable", "CGImage"]
+- ["PSs9Equatable", "drawMapRect"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "overlay"]
+- ["PSs9Equatable", "overlayImage"]
+- !private ["PSs9Equatable", "rectForMapRect"]
+- !private ["PSs9Equatable", "size"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CGContextDrawImage"]
+- !private ["PSs8Hashable", "CGContextScaleCTM"]
+- !private ["PSs8Hashable", "CGContextTranslateCTM"]
+- !private ["PSs8Hashable", "CGImage"]
+- ["PSs8Hashable", "drawMapRect"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "overlay"]
+- ["PSs8Hashable", "overlayImage"]
+- !private ["PSs8Hashable", "rectForMapRect"]
+- ["PSs8Hashable", ""]
+- !private ["PSo12MKAnnotation", "boundingMapRect"]
+- !private ["PSo9MKOverlay", "boundingMapRect"]
+- ["CSo17MKOverlayRenderer", "CGContext"]
+- !private ["CSo17MKOverlayRenderer", "CGContextDrawImage"]
+- !private ["CSo17MKOverlayRenderer", "CGContextScaleCTM"]
+- !private ["CSo17MKOverlayRenderer", "CGContextTranslateCTM"]
+- ["CSo17MKOverlayRenderer", "MKMapRect"]
+- ["CSo17MKOverlayRenderer", "MKOverlay"]
+- ["CSo17MKOverlayRenderer", "MKZoomScale"]
+- ["CSo17MKOverlayRenderer", "UIImage"]
+- ["CSo17MKOverlayRenderer", "drawMapRect"]
+- ["CSo17MKOverlayRenderer", "init"]
+- !private ["CSo17MKOverlayRenderer", "overlay"]
+- ["CSo17MKOverlayRenderer", "overlayImage"]
+- !private ["CSo17MKOverlayRenderer", "rectForMapRect"]
+- ["CSo17MKOverlayRenderer", ""]
+- !private ["PSo8NSCoding", "CGImage"]
+- ["CSo8NSObject", "CGContext"]
+- !private ["CSo8NSObject", "CGContextDrawImage"]
+- !private ["CSo8NSObject", "CGContextScaleCTM"]
+- !private ["CSo8NSObject", "CGContextTranslateCTM"]
+- !private ["CSo8NSObject", "CGImage"]
+- ["CSo8NSObject", "MKMapRect"]
+- ["CSo8NSObject", "MKOverlay"]
+- ["CSo8NSObject", "MKZoomScale"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "drawMapRect"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "overlay"]
+- ["CSo8NSObject", "overlayImage"]
+- !private ["CSo8NSObject", "rectForMapRect"]
+- !private ["PSo16NSObjectProtocol", "CGContextDrawImage"]
+- !private ["PSo16NSObjectProtocol", "CGContextScaleCTM"]
+- !private ["PSo16NSObjectProtocol", "CGContextTranslateCTM"]
+- !private ["PSo16NSObjectProtocol", "CGImage"]
+- !private ["PSo16NSObjectProtocol", "boundingMapRect"]
+- ["PSo16NSObjectProtocol", "drawMapRect"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "overlay"]
+- ["PSo16NSObjectProtocol", "overlayImage"]
+- !private ["PSo16NSObjectProtocol", "rectForMapRect"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGImage"]
+- ["C9Park_View18ParkMapOverlayView", "CGContext"]
+- !private ["C9Park_View18ParkMapOverlayView", "CGContextDrawImage"]
+- !private ["C9Park_View18ParkMapOverlayView", "CGContextScaleCTM"]
+- !private ["C9Park_View18ParkMapOverlayView", "CGContextTranslateCTM"]
+- ["C9Park_View18ParkMapOverlayView", "MKMapRect"]
+- ["C9Park_View18ParkMapOverlayView", "MKOverlay"]
+- ["C9Park_View18ParkMapOverlayView", "MKZoomScale"]
+- ["C9Park_View18ParkMapOverlayView", "UIImage"]
+- ["C9Park_View18ParkMapOverlayView", "deinit"]
+- ["C9Park_View18ParkMapOverlayView", "drawMapRect"]
+- ["C9Park_View18ParkMapOverlayView", "init"]
+- !private ["C9Park_View18ParkMapOverlayView", "overlay"]
+- ["C9Park_View18ParkMapOverlayView", "overlayImage"]
+- !private ["C9Park_View18ParkMapOverlayView", "rectForMapRect"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "CGImage"]
+- !private ["CSo7UIImage", "CGImage"]
+- !private ["PSs24_ImageLiteralConvertible", "CGImage"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "size"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo12MKAnnotation"
+- !private "PSo9MKOverlay"
+- "CSo17MKOverlayRenderer"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "C9Park_View18ParkMapOverlayView"
+- !private "VSs12StaticString"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "PSs24_ImageLiteralConvertible"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "a568dfeb724fddfb4968e61aeac7a6a2"
